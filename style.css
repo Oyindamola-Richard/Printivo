@@ -1,0 +1,225 @@
+.flier{
+    background-color: #ECE8D9;
+    height: 550px;
+}
+.scnd{
+    background-color: #ECE8D9;
+    position: sticky;
+}
+.nav1{
+    font-family: "SF Pro", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 0.8em;
+    font-weight: 600;
+    background-color: #F7F6F4;
+    color: rgb(56,74,98,85%);
+}
+.nigeria{
+    cursor: pointer;
+}
+.head{
+    color: rgb(56,74,98,90%);
+    font-size: 0.955em;
+    font-weight: 600;
+    justify-content: space-evenly;
+}
+.active{
+    color: rgba(215,127,129,90%);
+}
+.con{
+    margin-top: 60px;
+}
+.print{
+    font-size: 4.3em;
+    font-family: "dm serif display",serif;
+    color: #384a62;
+}
+.shipping{
+    color: #708095;
+    font-family: SF Pro,sans-serif;
+    font-size: 1.5em;
+}
+.what{
+    color: #384a62;
+    letter-spacing: .04em;
+    font-family: SF Pro,sans-serif;
+    font-size: 0.99em;
+}
+.s-button{
+    position: absolute;
+    margin-left: -50px;
+    margin-top: 20px;
+    background-color: transparent;
+}
+.hand{
+    position: absolute;
+    bottom: 65px;
+    right: 0px;
+}
+.pop-container{
+    padding-top: 45px;
+}
+.popular{
+    color: #384a62;
+    font-family: "dm serif display",serif;
+    font-size: 2em;
+    line-height: 2.25rem;
+    font-weight: 600;
+}
+.all-pro {
+    color: #d77f81;
+    font-family: SF Pro,sans-serif;
+    font-weight: 600;
+    font-size: 1em;
+}
+.card{
+    margin: 15px 0px;
+}    
+.card-name{
+    color: #384a62;
+    font-size: 1em;
+    font-weight: 700;
+    font-family: SF Pro,sans-serif;
+    letter-spacing: .04em;
+}
+.starting-at{
+    color: #708095;
+    font-size: 0.75em;
+    font-weight: 700;
+    letter-spacing: .04em;
+}
+.price{
+    color: #384a62;
+    font-weight: 700;
+    letter-spacing: .04em;
+}
+.per{
+    color: #708095;
+    font-weight: 700;
+    font-size: 0.7em;
+}
+.card-button{
+    width: fit-content;
+    background-color: #D77F81;
+    font-weight: 500;
+}
+.card-image-top:hover{
+    animation: move 0.5s linear normal;
+}
+@keyframes move{
+    0%{transform: scale(1);}
+    50%{transform: scale(1.06);}
+}
+.no1{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.nig{
+    color: #384a62;
+    font-family: "dm serif display",serif;
+}
+.no1-con{
+    color: #506683;
+    max-width: 650px;
+    font-family: SF Pro,sans-serif
+}
+.tweet{
+    background-color: #EDF6FD;
+}
+.count-cont{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.count{
+    color: #384a62;
+}
+.count-con{
+    color: #677f9e;
+    max-width: 240px;
+}
+.amazing{
+    background-color: #F7F6F4;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.subscribe{
+    background-color: #ECE8D9;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    color: #384A62;
+}
+.sub{
+    background-color: #384A62;
+    position: absolute;
+    margin-left: -150px;
+    margin-top: 8px;
+}
+.lst{
+    background-color: #384A62;
+    padding-top: 85px;
+    padding-bottom: 85px;
+}
+.d-link{
+    font-size: 0.9em;
+    font-weight: 600;
+    font-family: SF Pro,sans-serif
+}
+.lst-hd{
+    color: #ece8d9;
+}
+footer{
+    background-color: #CBCAC8;
+}
+.inner{
+    color: #384a62;
+}
+@media only screen and (max-width: 390px)  {
+.hand{
+    display: none;
+}
+.micro{
+    height: 35px;
+}
+.whatsapp{
+    margin-left: 50px;
+}
+.nigeria{
+    margin-left: 55px;
+}
+}
+@media only screen and (max-width: 414px)  {
+.hand{
+    display: none;
+}
+.micro{
+    height: 35px;
+}
+.search{
+    width: 350px;
+}
+.whatsapp{
+    margin-left: 50px;
+}
+.nigeria{
+    margin-left: 55px;
+}
+}
+@media only screen and (max-width: 320px)  {
+    .hand{
+        display: none;
+    }
+    .micro{
+        height: 30px;
+    }
+    .search{
+        width: 350px;
+    }
+    .whatsapp{
+        margin-left: 20px;
+    }
+    .nigeria{
+        margin-left: 25px;
+    }
+    .search{
+        width: 290px;
+    }
+    }
